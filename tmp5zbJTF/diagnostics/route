@@ -1,0 +1,31 @@
+route --numericKernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         45.55.0.1       0.0.0.0         UG    1024   0        0 eth0
+45.55.0.0       0.0.0.0         255.255.224.0   U     0      0        0 eth0
+172.17.0.0      0.0.0.0         255.255.0.0     U     0      0        0 docker0
+192.168.0.18    45.55.13.139    255.255.255.255 UGH   0      0        0 tunl0
+192.168.0.19    45.55.23.137    255.255.255.255 UGH   0      0        0 tunl0
+192.168.0.20    45.55.13.49     255.255.255.255 UGH   0      0        0 tunl0
+
+ip routedefault via 45.55.0.1 dev eth0  proto static  metric 1024 
+45.55.0.0/19 dev eth0  proto kernel  scope link  src 45.55.12.109 
+172.17.0.0/16 dev docker0  proto kernel  scope link  src 172.17.42.1 
+192.168.0.18 via 45.55.13.139 dev tunl0  proto bird onlink 
+192.168.0.19 via 45.55.23.137 dev tunl0  proto bird onlink 
+192.168.0.20 via 45.55.13.49 dev tunl0  proto bird onlink 
+
+ip -6 routeunreachable ::/96 dev lo  metric 1024  error -101
+unreachable ::ffff:0.0.0.0/96 dev lo  metric 1024  error -101
+unreachable 2002:a00::/24 dev lo  metric 1024  error -101
+unreachable 2002:7f00::/24 dev lo  metric 1024  error -101
+unreachable 2002:a9fe::/32 dev lo  metric 1024  error -101
+unreachable 2002:ac10::/28 dev lo  metric 1024  error -101
+unreachable 2002:c0a8::/32 dev lo  metric 1024  error -101
+unreachable 2002:e000::/19 dev lo  metric 1024  error -101
+2604:a880:1:20::/64 dev eth0  proto kernel  metric 256 
+unreachable 3ffe:ffff::/32 dev lo  metric 1024  error -101
+fe80::/64 dev eth0  proto kernel  metric 256 
+fe80::/64 dev eth1  proto kernel  metric 256 
+fe80::/64 dev docker0  proto kernel  metric 256 
+default via 2604:a880:1:20::1 dev eth0  proto static  metric 1024 
+

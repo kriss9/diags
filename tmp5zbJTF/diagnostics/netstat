@@ -1,0 +1,227 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN     
+tcp        0      0 45.55.12.109:5051       0.0.0.0:*               LISTEN     
+tcp        0      0 45.55.12.109:43843      0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:2377            0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:2378          0.0.0.0:*               LISTEN     
+tcp        0      0 45.55.12.109:2379       0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:2379          0.0.0.0:*               LISTEN     
+tcp        0      0 45.55.12.109:8301       0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:8400          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:179             0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:8500          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:8600          0.0.0.0:*               LISTEN     
+tcp        0      0 45.55.12.109:47691      45.55.10.141:179        ESTABLISHED
+tcp        0      0 45.55.12.109:46895      45.55.12.109:2379       ESTABLISHED
+tcp        0      0 45.55.12.109:58943      45.55.12.109:2379       ESTABLISHED
+tcp        0      0 45.55.12.109:40664      45.55.12.15:179         ESTABLISHED
+tcp        0      0 45.55.12.109:56305      104.236.165.140:2380    ESTABLISHED
+tcp        0      0 45.55.12.109:38823      45.55.12.101:179        ESTABLISHED
+tcp        0      0 45.55.12.109:39458      104.236.165.140:179     ESTABLISHED
+tcp        0      0 45.55.12.109:179        45.55.23.137:49403      ESTABLISHED
+tcp        0      1 45.55.12.109:41208      45.55.16.67:179         SYN_SENT   
+tcp        0      0 45.55.12.109:179        45.55.13.47:47050       ESTABLISHED
+tcp        0      0 45.55.12.109:60394      104.236.153.225:2181    ESTABLISHED
+tcp        0      0 45.55.12.109:49381      45.55.31.168:2379       ESTABLISHED
+tcp        0      0 45.55.12.109:60633      45.55.12.88:179         ESTABLISHED
+tcp        0      0 45.55.12.109:179        45.55.13.49:49488       ESTABLISHED
+tcp        0      0 45.55.12.109:35624      45.55.10.145:179        ESTABLISHED
+tcp        0      0 45.55.12.109:179        45.55.13.135:56140      ESTABLISHED
+tcp        0      0 45.55.12.109:49888      104.236.165.140:2379    ESTABLISHED
+tcp        0      0 45.55.12.109:37712      45.55.12.109:5051       ESTABLISHED
+tcp        0    152 45.55.12.109:22         162.195.241.248:54096   ESTABLISHED
+tcp        0      0 45.55.12.109:49750      104.236.165.140:8300    TIME_WAIT  
+tcp        0      0 45.55.12.109:41964      45.55.12.86:8301        TIME_WAIT  
+tcp        0      0 45.55.12.109:5051       104.236.153.225:46356   ESTABLISHED
+tcp        0      0 45.55.12.109:5051       45.55.12.109:37712      ESTABLISHED
+tcp        0      0 45.55.12.109:179        45.55.13.27:44692       ESTABLISHED
+tcp        0      1 45.55.12.109:51464      45.55.10.143:179        SYN_SENT   
+tcp        0      0 45.55.12.109:41300      45.55.30.133:179        ESTABLISHED
+tcp        0      0 45.55.12.109:179        45.55.12.246:43150      ESTABLISHED
+tcp        0      0 45.55.12.109:55078      45.55.13.139:179        ESTABLISHED
+tcp        0      0 45.55.12.109:2379       45.55.12.109:58943      ESTABLISHED
+tcp        0      0 45.55.12.109:35790      45.55.13.19:179         ESTABLISHED
+tcp        0      0 45.55.12.109:50560      104.236.153.225:5050    ESTABLISHED
+tcp        0      0 45.55.12.109:2379       45.55.12.109:46895      ESTABLISHED
+tcp        0      0 45.55.12.109:179        45.55.31.230:45045      ESTABLISHED
+tcp        0      0 45.55.12.109:37848      45.55.12.86:179         ESTABLISHED
+tcp        0      0 45.55.12.109:179        45.55.30.71:49961       ESTABLISHED
+tcp        0      0 45.55.12.109:179        45.55.15.33:37055       ESTABLISHED
+tcp        0      0 45.55.12.109:2379       45.55.12.109:46885      ESTABLISHED
+tcp        0      0 45.55.12.109:51986      45.55.31.168:2379       ESTABLISHED
+tcp        0      0 127.0.0.1:2377          127.0.0.1:39203         ESTABLISHED
+tcp        0      0 45.55.12.109:179        45.55.13.37:37442       ESTABLISHED
+tcp        0      0 45.55.12.109:46885      45.55.12.109:2379       ESTABLISHED
+tcp        0      0 45.55.12.109:35014      45.55.13.36:179         ESTABLISHED
+tcp        0      0 45.55.12.109:59123      45.55.31.230:2379       ESTABLISHED
+tcp        0      0 45.55.12.109:34339      45.55.31.168:2379       ESTABLISHED
+tcp        0      0 127.0.0.1:39203         127.0.0.1:2377          ESTABLISHED
+tcp        0      0 45.55.12.109:8301       104.236.162.244:56271   TIME_WAIT  
+tcp        0      0 45.55.12.109:179        45.55.12.247:50539      ESTABLISHED
+tcp        0      0 45.55.12.109:179        45.55.12.244:43729      ESTABLISHED
+tcp        0      0 45.55.12.109:49865      104.236.165.140:2379    ESTABLISHED
+tcp6       0      0 ::1:25                  :::*                    LISTEN     
+tcp6       0      0 :::4243                 :::*                    LISTEN     
+tcp6       0      0 :::22                   :::*                    LISTEN     
+udp        0      0 45.55.12.109:8301       0.0.0.0:*                          
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                          
+udp        0      0 127.0.0.1:8600          0.0.0.0:*                          
+udp        0      0 0.0.0.0:47820           0.0.0.0:*                          
+raw6       0      0 :::58                   :::*                    7          
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     11542    /var/run/NetworkManager/private
+unix  2      [ ACC ]     STREAM     LISTENING     171077   /var/run/docker.sock
+unix  2      [ ACC ]     STREAM     LISTENING     171615   bird.ctl
+unix  2      [ ACC ]     STREAM     LISTENING     171619   bird6.ctl
+unix  2      [ ACC ]     STREAM     LISTENING     171645   /var/lib/syslog-ng/syslog-ng.ctl
+unix  2      [ ]         DGRAM                    87713    @/org/freedesktop/systemd1/notify
+unix  2      [ ACC ]     STREAM     LISTENING     11629    /var/run/NetworkManager/private-dhcp
+unix  2      [ ACC ]     STREAM     LISTENING     10604    /var/run/avahi-daemon/socket
+unix  2      [ ACC ]     STREAM     LISTENING     10607    /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     171643   /dev/log
+unix  2      [ ACC ]     SEQPACKET  LISTENING     8830     /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     87715    /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     13761    public/pickup
+unix  2      [ ACC ]     STREAM     LISTENING     13765    public/cleanup
+unix  2      [ ACC ]     STREAM     LISTENING     13768    public/qmgr
+unix  2      [ ACC ]     STREAM     LISTENING     13772    private/tlsmgr
+unix  2      [ ACC ]     STREAM     LISTENING     13775    private/rewrite
+unix  2      [ ACC ]     STREAM     LISTENING     13778    private/bounce
+unix  2      [ ACC ]     STREAM     LISTENING     13781    private/defer
+unix  2      [ ACC ]     STREAM     LISTENING     13784    private/trace
+unix  2      [ ACC ]     STREAM     LISTENING     13787    private/verify
+unix  2      [ ACC ]     STREAM     LISTENING     13790    public/flush
+unix  2      [ ACC ]     STREAM     LISTENING     13793    private/proxymap
+unix  2      [ ACC ]     STREAM     LISTENING     13796    private/proxywrite
+unix  2      [ ACC ]     STREAM     LISTENING     6867     /run/systemd/journal/stdout
+unix  9      [ ]         DGRAM                    6870     /run/systemd/journal/socket
+unix  13     [ ]         DGRAM                    6872     /dev/log
+unix  2      [ ]         DGRAM                    7899     /run/systemd/shutdownd
+unix  2      [ ACC ]     STREAM     LISTENING     13799    private/smtp
+unix  2      [ ACC ]     STREAM     LISTENING     13802    private/relay
+unix  2      [ ACC ]     STREAM     LISTENING     13805    public/showq
+unix  2      [ ACC ]     STREAM     LISTENING     13808    private/error
+unix  2      [ ACC ]     STREAM     LISTENING     13811    private/retry
+unix  2      [ ACC ]     STREAM     LISTENING     13814    private/discard
+unix  2      [ ACC ]     STREAM     LISTENING     13817    private/local
+unix  2      [ ACC ]     STREAM     LISTENING     13820    private/virtual
+unix  2      [ ACC ]     STREAM     LISTENING     13823    private/lmtp
+unix  2      [ ACC ]     STREAM     LISTENING     13826    private/anvil
+unix  2      [ ACC ]     STREAM     LISTENING     13829    private/scache
+unix  2      [ ]         DGRAM                    8126     
+unix  3      [ ]         STREAM     CONNECTED     13806    
+unix  3      [ ]         STREAM     CONNECTED     11613    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13767    
+unix  3      [ ]         STREAM     CONNECTED     10094    
+unix  3      [ ]         STREAM     CONNECTED     11009    
+unix  3      [ ]         STREAM     CONNECTED     1061379  
+unix  3      [ ]         STREAM     CONNECTED     13762    
+unix  3      [ ]         STREAM     CONNECTED     13810    
+unix  3      [ ]         STREAM     CONNECTED     13801    
+unix  3      [ ]         STREAM     CONNECTED     13788    
+unix  2      [ ]         DGRAM                    1055579  
+unix  3      [ ]         STREAM     CONNECTED     13825    
+unix  3      [ ]         STREAM     CONNECTED     13780    
+unix  2      [ ]         DGRAM                    11001    
+unix  3      [ ]         STREAM     CONNECTED     1057853  /var/run/docker.sock
+unix  3      [ ]         STREAM     CONNECTED     11910    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13807    
+unix  3      [ ]         STREAM     CONNECTED     11545    /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    13041    
+unix  3      [ ]         STREAM     CONNECTED     13785    
+unix  3      [ ]         STREAM     CONNECTED     11470    
+unix  3      [ ]         STREAM     CONNECTED     171658   /dev/log
+unix  3      [ ]         STREAM     CONNECTED     171198   
+unix  3      [ ]         DGRAM                    8130     
+unix  3      [ ]         STREAM     CONNECTED     13782    
+unix  3      [ ]         STREAM     CONNECTED     1057852  
+unix  3      [ ]         STREAM     CONNECTED     13789    
+unix  3      [ ]         STREAM     CONNECTED     34648    
+unix  3      [ ]         STREAM     CONNECTED     13763    
+unix  2      [ ]         DGRAM                    12415    
+unix  3      [ ]         STREAM     CONNECTED     13830    
+unix  3      [ ]         STREAM     CONNECTED     13773    
+unix  2      [ ]         DGRAM                    1055566  
+unix  3      [ ]         STREAM     CONNECTED     10032    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     13759    
+unix  3      [ ]         STREAM     CONNECTED     13813    
+unix  3      [ ]         STREAM     CONNECTED     196015   /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     10231    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     13777    
+unix  3      [ ]         STREAM     CONNECTED     1055560  
+unix  3      [ ]         STREAM     CONNECTED     13769    
+unix  3      [ ]         STREAM     CONNECTED     13786    
+unix  3      [ ]         STREAM     CONNECTED     13797    
+unix  2      [ ]         DGRAM                    11228    
+unix  3      [ ]         STREAM     CONNECTED     13815    
+unix  3      [ ]         STREAM     CONNECTED     11548    
+unix  3      [ ]         STREAM     CONNECTED     171657   
+unix  3      [ ]         STREAM     CONNECTED     170317   /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     11184    
+unix  3      [ ]         STREAM     CONNECTED     1055567  
+unix  3      [ ]         STREAM     CONNECTED     87763    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     13800    
+unix  2      [ ]         DGRAM                    11552    
+unix  3      [ ]         STREAM     CONNECTED     1061380  /var/run/docker.sock
+unix  3      [ ]         STREAM     CONNECTED     13827    
+unix  3      [ ]         STREAM     CONNECTED     13809    
+unix  3      [ ]         STREAM     CONNECTED     13822    
+unix  3      [ ]         STREAM     CONNECTED     10096    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     10859    
+unix  3      [ ]         STREAM     CONNECTED     11005    
+unix  3      [ ]         STREAM     CONNECTED     11544    
+unix  2      [ ]         DGRAM                    89485    
+unix  2      [ ]         DGRAM                    1055559  
+unix  2      [ ]         DGRAM                    10504    
+unix  2      [ ]         DGRAM                    11340    
+unix  3      [ ]         STREAM     CONNECTED     34913    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    1056582  
+unix  3      [ ]         STREAM     CONNECTED     10994    
+unix  3      [ ]         STREAM     CONNECTED     11185    
+unix  3      [ ]         STREAM     CONNECTED     13816    
+unix  2      [ ]         DGRAM                    170227   
+unix  3      [ ]         STREAM     CONNECTED     10694    
+unix  3      [ ]         STREAM     CONNECTED     13795    
+unix  3      [ ]         STREAM     CONNECTED     13779    
+unix  3      [ ]         STREAM     CONNECTED     13831    
+unix  3      [ ]         STREAM     CONNECTED     10050    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     12586    
+unix  3      [ ]         STREAM     CONNECTED     10048    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     11549    /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    149102   
+unix  3      [ ]         STREAM     CONNECTED     87714    
+unix  3      [ ]         STREAM     CONNECTED     13794    
+unix  3      [ ]         STREAM     CONNECTED     11187    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13828    
+unix  3      [ ]         STREAM     CONNECTED     13791    
+unix  3      [ ]         STREAM     CONNECTED     13774    
+unix  3      [ ]         STREAM     CONNECTED     1057838  /var/run/docker.sock
+unix  3      [ ]         STREAM     CONNECTED     13766    
+unix  3      [ ]         STREAM     CONNECTED     13812    
+unix  3      [ ]         STREAM     CONNECTED     13760    
+unix  3      [ ]         STREAM     CONNECTED     13804    
+unix  3      [ ]         STREAM     CONNECTED     12405    
+unix  3      [ ]         STREAM     CONNECTED     11004    
+unix  3      [ ]         STREAM     CONNECTED     13824    
+unix  3      [ ]         STREAM     CONNECTED     11188    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13792    
+unix  3      [ ]         STREAM     CONNECTED     13819    
+unix  2      [ ]         DGRAM                    196016   
+unix  3      [ ]         STREAM     CONNECTED     13770    
+unix  3      [ ]         STREAM     CONNECTED     13783    
+unix  3      [ ]         STREAM     CONNECTED     196014   
+unix  3      [ ]         STREAM     CONNECTED     13803    
+unix  3      [ ]         STREAM     CONNECTED     13818    
+unix  3      [ ]         STREAM     CONNECTED     87721    /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    1058071  
+unix  3      [ ]         STREAM     CONNECTED     10944    
+unix  3      [ ]         STREAM     CONNECTED     13776    
+unix  2      [ ]         DGRAM                    13835    
+unix  3      [ ]         STREAM     CONNECTED     1057840  /var/run/docker.sock
+unix  3      [ ]         STREAM     CONNECTED     89483    
+unix  3      [ ]         STREAM     CONNECTED     13798    
+unix  3      [ ]         DGRAM                    8131     
+unix  3      [ ]         STREAM     CONNECTED     13821    
