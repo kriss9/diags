@@ -1,0 +1,23 @@
+++ ip addr
+++ grep -A3 eth0
+++ grep 'inet[[:space:]]'
+++ cut -d / -f 1
+++ awk '{print $2}'
++ ip=45.55.12.109
++ echo IP is 45.55.12.109
+IP is 45.55.12.109
++ modprobe xt_set
++ export ETCD_AUTHORITY=45.55.12.109:2379
++ ETCD_AUTHORITY=45.55.12.109:2379
++ /root/calicoctl node --ip=45.55.12.109
+WARNING: ipv6 forwarding is not enabled.
+Docker Remote API is on port 2377.  Run 
+
+export DOCKER_HOST=localhost:2377
+
+before using `docker run` for Calico networking.
+
+Calico node is running with id: d33058554c891b1134afa590e42b83693ca93a213727d0067631e6d57d4592a6
++ export DOCKER_HOST=localhost:2377
++ DOCKER_HOST=localhost:2377
++ ip link set dev tunl0 mtu 1200
